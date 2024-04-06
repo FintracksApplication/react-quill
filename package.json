@@ -1,5 +1,5 @@
 {
-  "name": "react-quill",
+  "name": "@tifintracks/react-quill",
   "version": "2.0.0",
   "description": "The Quill rich-text editor as a React component.",
   "author": "zenoamaro <zenoamaro@gmail.com>",
@@ -23,7 +23,8 @@
     "test:browser:interactive": "cypress open",
     "demo": "superstatic demo",
     "clean": "rimraf lib dist",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "deploy": "npm version patch && npm publish"
   },
   "keywords": [
     "react",
